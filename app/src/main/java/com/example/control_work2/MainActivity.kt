@@ -72,12 +72,12 @@ fun Greeting(modifier: Modifier = Modifier
         else -> "Error:Image not found"
     }
     val author = when (result) {
-        1 -> "Clarcson"
-        2 -> "Kristian Andr"
-        3 -> "Vincent V"
-        4 -> "Donatello"
-        5 -> "Jim Caryyy"
-        else -> "Sorry"
+        1 -> "Борщ"
+        2 -> "KКартопля"
+        3 -> "Млинці"
+        4 -> "Голубці"
+        5 -> "Риба"
+        else -> "немає"
     }
     fun ImageScrollerForward():Int
     {
