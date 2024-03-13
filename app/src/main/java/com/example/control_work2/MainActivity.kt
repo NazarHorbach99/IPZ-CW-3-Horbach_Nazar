@@ -67,7 +67,7 @@ fun Greeting(modifier: Modifier = Modifier
         3 -> "Млинці"
         4 -> "Голубці"
         5 -> "Риба"
-        else -> "немає"
+        else -> "немає страви"
     }
     val author = when (result) {
         1 -> "Борщ"
@@ -75,7 +75,7 @@ fun Greeting(modifier: Modifier = Modifier
         3 -> "Млинці"
         4 -> "Голубці"
         5 -> "Риба"
-        else -> "немає"
+        else -> "немає страви"
     }
     fun ImageScrollerForward():Int
     {
