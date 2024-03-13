@@ -122,6 +122,7 @@ fun Greeting(modifier: Modifier = Modifier
                 .fillMaxWidth()) {
                 Text(text = desc, fontSize = 36.sp)
                 Text(text = author, fontSize = 14.sp)
+
             }
           Row(horizontalArrangement = Arrangement.SpaceBetween,
               verticalAlignment =  Alignment.Bottom,
