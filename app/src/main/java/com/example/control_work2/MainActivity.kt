@@ -64,12 +64,12 @@ fun Greeting(modifier: Modifier = Modifier
         else -> R.drawable.ic_launcher_background
     }
     val desc = when (result) {
-        1 -> "Image 1"
-        2 -> "Image 2"
-        3 -> "Image 3"
-        4 -> "Image 4"
-        5 -> "Image 5"
-        else -> "Error:Image not found"
+        1 -> "Борщ"
+        2 -> "Kартопля"
+        3 -> "Млинці"
+        4 -> "Голубці"
+        5 -> "Риба"
+        else -> "немає"
     }
     val author = when (result) {
         1 -> "Борщ"
